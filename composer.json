@@ -1,0 +1,22 @@
+{
+	"name": "Report",
+	"description": "Reporting Services",
+	"keywords": ["psd", "browser", "excel"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Innocent",
+			"email": "islanga@magicmail.co.za",
+			"role": "Creator / Innocent"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"filp/whoops": ">=1.1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\": "src/"
+		}
+	}
+}
